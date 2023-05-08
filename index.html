@@ -113,7 +113,9 @@
     });
 
     function getJSON(char) {
-      return fetch('./data/hanzi-writer-data/' + char + '.json').then((res) => res.json());
+      return fetch('./data/hanzi-writer-data/' + char + '.json').then((res) => res.json()).catch(() => {
+        alert(`没有匹配到${char}`)
+      });
     }
   </script>
 </body>
