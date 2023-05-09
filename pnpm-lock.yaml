@@ -1,0 +1,12 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  hanzi-writer:
+    specifier: ^3.5.0
+    version: 3.5.0
+
+packages:
+
+  /hanzi-writer@3.5.0:
+    resolution: {integrity: sha512-ItQ0xJ4AQ1jxH/vDlaNpIjuFxQac+LDg5UdhiNJkl0UC8cuZLyamI3Y6Yxm3j0hFmsBnBpUUu7RhIzcPG6AABA==}
+    dev: false
